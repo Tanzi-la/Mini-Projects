@@ -1,0 +1,31 @@
+/* display:flex */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.blocks{
+    background-color: aqua ;
+   display: flex;
+   justify-content:  space-between;
+   align-items: flex-end;
+   height: 500px;
+   flex-direction: row-reverse;
+   flex-wrap: wrap;
+}
+.block{
+width: 304px;
+border: 2px solid green;
+  /* text-align: center; */
+}
+.block img{
+    width: 300px;
+   
+}
+.block2{
+    align-self: flex-start;
+}
+.block1{
+    align-self: center;
+}

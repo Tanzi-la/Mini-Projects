@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.info-img img{
+    width: 90%;
+}
+.container{
+    border: 2px solid black;
+    width: 1000px;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.info-img{                                                                                                                                                                                                                              
+position: relative;
+}
+.info-img .portfolio{
+width: 100%;
+}
+.info-discription{
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0;
+
+}
+/* .info-discription:hover{
+    background-color: purple;
+} */
+
+.info-discription-btns button{
+    margin-right: 10px;
+    background-color: transparent;
+    border: 1px solid purple;
+    border-radius: 2px;
+    padding: 3px 5px ;
+    color: purple;
+}
+.info-discription-btns button:hover{
+   background-color: purple;
+    color: wheat; 
+}
+.info-discription-btns button:focus{
+    background-color: red ;
+}
+.info-img-icons{
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    right: 150px;                                                                                 
+    bottom: -10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.info-img-icons img{
+    width:20%;
+}
+a:active{
+    color: green;
+}
+.list li:nth-child(2n){
+    color: red;
+}
+.list li:nth-child(2n+1){
+    color: blue;
+}
+.list li:nth-child(4n){
+    background-color: green;
+}
+.info-discription p:not(.short){
+color: green;
+}
+.info-discription h3::before{
+    content: "!";
+    color: red;
+    background-color: yellow;
+    border-radius: 20px;
+    text-align: center;
+    padding: 2px;
+
+}
